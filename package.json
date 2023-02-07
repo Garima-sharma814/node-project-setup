@@ -1,0 +1,24 @@
+{
+  "name": "husky-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "lint:staged": "eslint "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "lint-staged": "^13.1.1"
+  }
+}
